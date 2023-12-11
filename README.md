@@ -357,6 +357,7 @@ README
     pull-image-on-create: true
     EOF
     
+    # 注销重新登陆后，生效
     sudo usermod -aG root $USER
     
     ```
